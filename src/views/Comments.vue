@@ -118,17 +118,17 @@ export default {
       btnShow: false,
       index: '0',
       replyComment: '',
-      myName: 'Lana Del Rey',
+      myName: 'Yepi-bit',
       myHeader: 'https://ae01.alicdn.com/kf/Hd60a3f7c06fd47ae85624badd32ce54dv.jpg',
       myId: 19870621,
       to: '',
       toId: -1,
       comments: [
         {
-          name: 'Lana Del Rey',
+          name: 'Coco',
           id: 19870621,
           headImg: 'https://ae01.alicdn.com/kf/Hd60a3f7c06fd47ae85624badd32ce54dv.jpg',
-          comment: '我发布一张新专辑Norman Fucking Rockwell,大家快来听啊',
+          comment: '我发布一张Yepi-bitNorman Fucking Rockwell,大家快来听啊',
           time: '2023年01月30日 16:15',
           commentNum: 2,
           like: 15,
@@ -140,7 +140,7 @@ export default {
               fromHeadImg: 'https://ae01.alicdn.com/kf/H94c78935ffa64e7e977544d19ecebf06L.jpg',
               to: 'Lana Del Rey',
               toId: 19870621,
-              comment: '我很喜欢你的新专辑！！',
+              comment: '我很喜欢你的Yepi-bit！！',
               time: '2023年01月30日 16:15',
               commentNum: 1,
               like: 15,
@@ -162,10 +162,10 @@ export default {
           ]
         },
         {
-          name: 'Taylor Swift',
+          name: 'Love',
           id: 19891221,
           headImg: 'https://ae01.alicdn.com/kf/H94c78935ffa64e7e977544d19ecebf06L.jpg',
-          comment: '我发行了我的新专辑Lover',
+          comment: '我发行了我的Yepi-bitLover',
           time: '2023年01月30日 16:15',
           commentNum: 1,
           like: 5,
@@ -177,10 +177,10 @@ export default {
               fromHeadImg: 'https://ae01.alicdn.com/kf/Hd60a3f7c06fd47ae85624badd32ce54dv.jpg',
               to: 'Taylor Swift',
               toId: 19891221,
-              comment: '新专辑和speak now 一样棒！',
+              comment: 'Yepi-bit和speak now 一样棒！',
               time: '2023年01月30日 16:15',
-              commentNum: 25,
-              like: 5,
+              commentNum: 5,
+              like: 10,
               inputShow: false
 
             }
