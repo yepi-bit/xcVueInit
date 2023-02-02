@@ -37,6 +37,11 @@ const router = new VueRouter({
       path: '/comments',
       name: 'comments',
       component: () => import('../views/Comments.vue')
+    },
+    {
+      path: '/reLationEchart',
+      name: 'reLationEchart',
+      component: () => import('../views/ReLationEchart.vue')
     }
   ]
 })

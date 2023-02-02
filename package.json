@@ -9,6 +9,8 @@
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "echarts": "^5.4.1",
+    "esbuild-windows-64": "^0.15.18",
     "pinia": "^2.0.16",
     "vant": "^2.12.53",
     "vue": "^2.7.7",

@@ -3,7 +3,6 @@ import { createPinia, PiniaVuePlugin } from 'pinia'
 
 import App from './App.vue'
 import router from './router'
-
 import './assets/main.css'
 
 // 2. 引入组件样式

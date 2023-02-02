@@ -17,6 +17,7 @@ import HelloWorld from './components/HelloWorld.vue'
           <router-link to="/headerAni">HeaderAni</router-link>
           <router-link to="/refresh">Refresh</router-link>
           <router-link to="/comments">Comments</router-link>
+          <router-link to="/reLationEchart">ReLationEchart</router-link>
         </nav>
       </div>
     </header>
