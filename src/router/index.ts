@@ -42,6 +42,11 @@ const router = new VueRouter({
       path: '/reLationEchart',
       name: 'reLationEchart',
       component: () => import('../views/ReLationEchart.vue')
+    },
+    {
+      path: '/canvas',
+      name: 'canvas',
+      component: () => import('../views/Canvas.vue')
     }
   ]
 })
