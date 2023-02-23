@@ -13,18 +13,30 @@
     </ul>
     <van-loading v-if="!isShow" type="spinner" color="#1989fa" />
     <div style="color: #ccc" v-if='isShow'>已经到底了</div>
+    <provide-in-ject></provide-in-ject>
   </div>
 </template>
 
 <script>
 import {Loading} from "vant";
-
+import provideInJect from "../components/provideInJect.vue"
 export default {
   components: {
+    provideInJect,
     [Loading.name]: Loading,
   },
+  provide() {
+    return {
+      info:"提供数据",
+      me:'yepi',
+      toMe:()=> this.aa
+    }
+  },
+  inject:['message'],
   data() {
     return {
+      aa:'1',
+      me:'yepi',
       loading: false,
       singerList: [
         {
@@ -90,6 +102,7 @@ export default {
     this.getSingerList()
   },
   mounted() {
+    console.log(this.message,'message')
 // 事件监听
     window.addEventListener('scroll', this.listenBottomOut, true)
   },
