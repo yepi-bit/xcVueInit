@@ -90,6 +90,7 @@ export default {
       const scrollHeight = document.documentElement.scrollHeight
       console.log(Number(scrollTop.toFixed(0)) + Number(clientHeight), 'scrollTop' + ': ' + scrollTop.toFixed(2), 'clientHeight' + ': ' + clientHeight, 'scrollHeight' + ': ' + scrollHeight)
       if (scrollTop + clientHeight >= scrollHeight) {
+        console.log('达到')
         // 没有数据后，不触发请求
         if (!this.isShow) {
           this.getSingerList()
