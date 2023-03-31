@@ -22,6 +22,7 @@ provide(/* 注入名 */ 'message', /* 值 */ 'hello!!')
           <router-link to="/comments">Comments</router-link>
           <router-link to="/reLationEchart">ReLationEchart</router-link>
           <router-link to="/canvas">Canvas</router-link>
+          <router-link to="/testVantSize">testVantSize</router-link>
         </nav>
       </div>
     </header>

@@ -47,6 +47,11 @@ const router = new VueRouter({
       path: '/canvas',
       name: 'canvas',
       component: () => import('../views/Canvas.vue')
+    },
+    {
+      path: '/testVantSize',
+      name: 'testVantSize',
+      component: () => import('../views/testVantSize.vue')
     }
   ]
 })
